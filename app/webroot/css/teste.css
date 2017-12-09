@@ -1,0 +1,44 @@
+
+@font-face {
+	font-family: "Open Sans Light";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../fonts/opensans.woff");
+}
+@font-face {
+	font-family: "Monserrat";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../fonts/Monserrat.woff");
+}
+@font-face {
+	font-family: "Fire Sans";
+	font-style: normal;
+	font-weight: 300;
+	src: url("../fonts/FireSans.woff");
+}
+
+body {
+	font-family: "Monserrat";
+}
+
+.nav-menu li > a {
+	font-size: 18px;
+
+	opacity: 1;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.nav-menu > li > a:hover{
+
+	background-color: #535233;
+	color: #FFF;
+	font-size: 18px;
+
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}

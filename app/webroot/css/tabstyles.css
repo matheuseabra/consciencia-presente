@@ -1,0 +1,30 @@
+
+.tabs-style-bar nav {
+	background-color: #535233;
+	border-radius: 2px;
+}
+
+.tabs-style-bar nav ul {
+}
+
+.tabs-style-bar nav ul li a {
+	background-color: #535233;
+	color: #FFF;
+	line-height: 3.8;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.tabs-style-bar nav ul li a:hover, a:focus{
+	color: #919167;
+	text-decoration: none;
+}
+
+.tabs-style-bar nav ul li a{
+	font-weight: 400;
+	font-size: 0.9em;
+}
+
+.tabs-style-bar nav ul li.tab-current a {
+	background: #2CC185;
+	color: #fff;
+}
